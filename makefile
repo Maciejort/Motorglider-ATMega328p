@@ -7,7 +7,7 @@ AVRDUDE = avrdude $(ARDUINO)
 DEF = -DF_CPU=16000000UL -D__AVR_ATmega328P__
 
 SRC = \
-main.c
+main.c uart.c pwm.c
 
 INC = \
 -I.
